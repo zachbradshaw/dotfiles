@@ -50,16 +50,6 @@ alias pull="git pull"
 alias push="git push"
 alias diff="git diff --"
 
-# build/test commands
-alias test="npm run test"
-alias watch="npm run watch"
-alias watch:test="npm run watch:test"
-alias start="npm run start"
-alias rs="rsync -av --exclude='.git' --exclude='vendor' ./ bradshaw.brontolabs.local:/usr/local/bronto/repos/reporting-rest-api-php"
-alias dd="deploy-dude"
-alias css="npm run css:build"
-alias build="npm run build"
-
 # misc
 alias zshconfig="vim ~/.zshrc"
 alias hist="history | grep"
