@@ -1,0 +1,5 @@
+# vim
+vim/plugged
+vim/.netrwhist
+vim/.swapfiles
+vim/.backups
