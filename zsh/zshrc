@@ -38,8 +38,6 @@ alias diff="git diff --"
 alias cz="git cz"
 
 # misc
-alias zshconfig="vim ~/.zshrc"
-alias vimconfig="vim ~/.vimrc"
 alias hist="history | grep"
 alias weather="curl wttr.in"
 alias restart="exec zsh"
