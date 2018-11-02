@@ -26,4 +26,7 @@ Plug 'tpope/vim-vinegar'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
+" auto pairs - auto pairs for brackets, parens, braces etc
+Plug 'jiangmiao/auto-pairs'
+
 call plug#end()
