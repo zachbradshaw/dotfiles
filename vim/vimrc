@@ -3,7 +3,6 @@ source $HOME/.vim/config/plugins.vim
 source $HOME/.vim/config/display.vim
 
 " change swap file location
-set directory=$HOME/.vim/.swapfiles//
-
-" change backup file location
-set backupdir=$HOME/.vim/.backups//
+set directory=./.swapfiles//
+ " change backup file location
+set backupdir=./.backups//
