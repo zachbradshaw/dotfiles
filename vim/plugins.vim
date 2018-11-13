@@ -29,4 +29,7 @@ Plug 'junegunn/fzf.vim'
 " auto pairs - auto pairs for brackets, parens, braces etc
 Plug 'jiangmiao/auto-pairs'
 
+" ale - Asynchronous linting/fixing for Vim
+Plug 'w0rp/ale'
+
 call plug#end()
