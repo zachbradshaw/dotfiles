@@ -35,7 +35,7 @@ alias commit="git commit"
 alias pull="git pull"
 alias push="git push"
 alias diff="git diff --"
-alias cz="git cz"
+alias clone="git clone"
 
 # misc
 alias hist="history | grep"
