@@ -32,4 +32,7 @@ Plug 'jiangmiao/auto-pairs'
 " ale - Asynchronous linting/fixing for Vim
 Plug 'w0rp/ale'
 
+" typescript syntax for vim
+Plug 'leafgarland/typescript-vim'
+
 call plug#end()
