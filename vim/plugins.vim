@@ -35,4 +35,7 @@ Plug 'w0rp/ale'
 " typescript syntax for vim
 Plug 'leafgarland/typescript-vim'
 
+" snippet manager
+Plug 'SirVer/ultisnips'
+
 call plug#end()
