@@ -23,5 +23,11 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=4
 
+" disable word wrapping
+set nowrap
+set textwidth=0
+set wrapmargin=0
+set formatoptions-=t
+
 " ENABLE OMNIFUNC SYNTAX COMPLETION
  set omnifunc=syntaxcomplete#Complete
