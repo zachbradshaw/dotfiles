@@ -38,4 +38,7 @@ Plug 'leafgarland/typescript-vim'
 " snippet manager
 Plug 'SirVer/ultisnips'
 
+" comments so powerful, no comment necessary
+Plug 'scrooloose/nerdcommenter'
+
 call plug#end()
