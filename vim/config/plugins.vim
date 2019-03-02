@@ -20,3 +20,10 @@ let g:UltiSnipsExpandTrigger="<TAB>"
 let g:UltiSnipsJumpForwardTrigger="<TAB>"
 let g:UltiSnipsJumpBackwardTrigger="<S-TAB>"
 
+" make fzf respect ag
+if (executable('ag'))
+  let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
+endif
+
+" NERDTree config
+" let g:NERDTreeQuitOnOpen=1

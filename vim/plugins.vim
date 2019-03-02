@@ -23,7 +23,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-vinegar'
 
 " fzf.vim - fuzzy file search
-Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 
 " auto pairs - auto pairs for brackets, parens, braces etc
@@ -40,5 +40,14 @@ Plug 'SirVer/ultisnips'
 
 " comments so powerful, no comment necessary
 Plug 'scrooloose/nerdcommenter'
+
+" NERDTree file explorer
+Plug 'scrooloose/nerdtree'
+
+" Git flags in NERDTree
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
+" ack for vim
+Plug 'mileszs/ack.vim'
 
 call plug#end()

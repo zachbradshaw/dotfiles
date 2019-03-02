@@ -35,13 +35,13 @@ alias commit="git commit"
 alias pull="git pull"
 alias push="git push"
 alias diff="git diff --"
-alias clone="git clone"
 
 # misc
-alias hist="history | grep"
 alias weather="curl wttr.in"
 alias restart="exec zsh"
 alias dd="deploy-dude"
+alias vim="nvim"
+alias vimdiff="nvim -d"
 
 # Launch VSC from iterm
 function code {
