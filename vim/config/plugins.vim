@@ -37,3 +37,4 @@ endif
 
 " NERDTree config
 let NERDTreeMinimalUI = 1
+let g:NERDTreeQuitOnOpen = 1
