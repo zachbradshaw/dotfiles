@@ -1,11 +1,21 @@
 " VIM JAVASCRIPT - JAVASCRIPT BUNDLE FOR VIM, THIS BUNDLE PROVIDES SYNTAX HIGHLIGHTING AND IMPROVED INDENTATION.
 let g:javascript_plugin_jsdoc=1
 
-" LIGHTLINE
-set laststatus=2    " Always show status line
-set noshowmode      " Hide -- INSERT --
+" LIGHTLINE CONFIG
+" Always show status line
+set laststatus=2
+" Hide -- INSERT --
+set noshowmode
+
 let g:lightline={
-\   'colorscheme': 'onedark'
+\   'colorscheme': 'onedark',
+\   'active': {
+\       'left': [ [ 'mode', 'paste' ],
+\                 ['gitbranch', 'readonly', 'filename', 'modified' ] ]
+\   },
+\   'component_function': {
+\       'gitbranch': 'fugitive#head'
+\   }
 \}
 
 " ale config
@@ -26,4 +36,4 @@ if (executable('ag'))
 endif
 
 " NERDTree config
-" let g:NERDTreeQuitOnOpen=1
+let NERDTreeMinimalUI = 1
