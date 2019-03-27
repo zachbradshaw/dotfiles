@@ -12,7 +12,7 @@ nnoremap <Down> :echoe "Use j"<CR>
 
 " NERDTree
 map <silent> <C-n> :NERDTreeToggle<CR>
-" nmap <silent> <C-m> :NERDTreeFind<CR>
+map <silent> <C-m> :NERDTreeFind<CR>
 
 " FZF
 nnoremap <C-P> :Files<CR>
