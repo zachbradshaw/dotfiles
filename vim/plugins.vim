@@ -7,11 +7,8 @@ call plug#begin('~/.vim/plugged')
 " one dark theme
 Plug 'joshdick/onedark.vim'
 
-" vim-javascript - js bundle for vim, syntax highlighting and improved indentation
-Plug 'pangloss/vim-javascript'
-
-" vim-jsx - syntax highlighting and indenting for jsx
-Plug 'mxw/vim-jsx'
+" on demand language support
+Plug 'sheerun/vim-polyglot'
 
 " lightline
 Plug 'itchyny/lightline.vim'
