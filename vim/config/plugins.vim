@@ -8,12 +8,18 @@ let g:lightline={
 \   'colorscheme': 'onedark',
 \   'active': {
 \       'left': [ [ 'mode', 'paste' ],
-\                 ['gitbranch', 'readonly', 'filename', 'modified' ] ]
+\                 ['gitbranch', 'readonly', 'filename' ] ],
+\       'right': [ [ 'lineinfo' ], [ 'percent' ], ['filetype'] ]
 \   },
 \   'component_function': {
-\       'gitbranch': 'fugitive#head'
+\       'gitbranch': 'fugitive#head',
+\       'filename': 'GetFullFilepath'
 \   }
 \}
+
+function! GetFullFilepath()
+  return expand('%:p')
+endfunction
 
 " ale config
 let g:ale_fixers = {'javascript': ['prettier']}
