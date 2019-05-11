@@ -55,3 +55,4 @@ function code {
     fi
 }
 
+export FZF_DEFAULT_COMMAND='rg --files --follow'

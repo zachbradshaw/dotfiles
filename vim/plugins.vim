@@ -29,22 +29,10 @@ Plug 'jiangmiao/auto-pairs'
 " ale - Asynchronous linting/fixing for Vim
 Plug 'w0rp/ale'
 
-" typescript syntax for vim
-Plug 'leafgarland/typescript-vim'
-
 " snippet manager
 Plug 'SirVer/ultisnips'
 
 " comments so powerful, no comment necessary
 Plug 'scrooloose/nerdcommenter'
-
-" NERDTree file explorer
-Plug 'scrooloose/nerdtree'
-
-" Git flags in NERDTree
-Plug 'Xuyuanp/nerdtree-git-plugin'
-
-" ack for vim
-Plug 'mileszs/ack.vim'
 
 call plug#end()

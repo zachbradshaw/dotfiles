@@ -29,5 +29,7 @@ set textwidth=0
 set wrapmargin=0
 set formatoptions-=t
 
-" ENABLE OMNIFUNC SYNTAX COMPLETION
- set omnifunc=syntaxcomplete#Complete
+" split settings
+set splitbelow
+set splitright
+

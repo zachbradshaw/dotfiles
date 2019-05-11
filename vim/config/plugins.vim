@@ -1,6 +1,3 @@
-" VIM JAVASCRIPT - JAVASCRIPT BUNDLE FOR VIM, THIS BUNDLE PROVIDES SYNTAX HIGHLIGHTING AND IMPROVED INDENTATION.
-let g:javascript_plugin_jsdoc=1
-
 " LIGHTLINE CONFIG
 " Always show status line
 set laststatus=2
@@ -33,7 +30,3 @@ let g:UltiSnipsJumpBackwardTrigger="<S-TAB>"
 if (executable('ag'))
   let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
 endif
-
-" NERDTree config
-let NERDTreeMinimalUI = 1
-let g:NERDTreeQuitOnOpen = 1
