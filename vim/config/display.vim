@@ -33,3 +33,13 @@ set formatoptions-=t
 set splitbelow
 set splitright
 
+" enable mouse support
+set mouse=a
+
+" ignore case when searching in lowercase
+set ignorecase
+set smartcase
+
+" enable search highlighting while typing
+set hlsearch
+set incsearch

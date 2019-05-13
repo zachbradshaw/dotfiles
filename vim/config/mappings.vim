@@ -8,11 +8,5 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
-" Practice makes perfect
-nnoremap <Left> :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up> :echoe "Use k"<CR>
-nnoremap <Down> :echoe "Use j"<CR>
-
 " FZF
 nnoremap <C-P> :Files<CR>
