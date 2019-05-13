@@ -35,4 +35,7 @@ Plug 'SirVer/ultisnips'
 " comments so powerful, no comment necessary
 Plug 'scrooloose/nerdcommenter'
 
+" coc: vscode style autocomplete
+Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
+
 call plug#end()
