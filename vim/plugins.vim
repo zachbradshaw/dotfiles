@@ -38,4 +38,7 @@ Plug 'scrooloose/nerdcommenter'
 " coc: vscode style autocomplete
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
 
+" vim-signify: git file status in gutter
+Plug 'mhinz/vim-signify'
+
 call plug#end()
