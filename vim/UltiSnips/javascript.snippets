@@ -1,3 +1,20 @@
 snippet log "console.log"
 console.log($1);
 endsnippet
+
+snippet aoc "advent of code boilerplate"
+const path = require("path");
+const fs = require("fs");
+const input = fs
+  .readFileSync(path.resolve(__dirname, "./input.txt"), "utf8")
+  .trim();
+
+function partOne(input) {}
+
+function partTwo(input) {}
+
+module.exports = {
+	partOne,
+	partTwo
+};
+endsnippet

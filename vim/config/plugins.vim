@@ -27,6 +27,9 @@ let g:ale_fix_on_save = 1
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_enter = 0
 
+" vim signify config
+let g:signify_sign_change = '~'
+
 " ultisnips config
 let g:UltiSnipsExpandTrigger="<TAB>"
 let g:UltiSnipsJumpForwardTrigger="<TAB>"
