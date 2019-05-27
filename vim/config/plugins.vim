@@ -7,18 +7,26 @@ set noshowmode
 let g:lightline={
 \   'colorscheme': 'onedark',
 \   'active': {
-\       'left': [ [ 'mode', 'paste' ],
-\                 ['gitbranch', 'readonly', 'filename' ] ],
-\       'right': [ [ 'lineinfo' ], [ 'percent' ], ['filetype'] ]
+\       'left': [ 
+\           [ 'mode' ], 
+\           [ 'gitbranch' ], 
+\           [ 'filename' ] 
+\       ],
+\       'right': [ 
+\           [ 'lineinfo' ], 
+\           [ 'percent' ], 
+\       ]
 \   },
 \   'component_function': {
 \       'gitbranch': 'fugitive#head',
-\       'filename': 'GetFullFilepath'
+\       'filename': 'LightlineFilename'
 \   }
 \}
 
-function! GetFullFilepath()
-  return expand('%:p')
+function! LightlineFilename()
+    let cmd = winwidth(0) > 70 ? '%:p' : '%:t'
+    let filename = expand(cmd) !=# '' ? expand(cmd) : '[No Name]'
+    return filename
 endfunction
 
 " ale config
