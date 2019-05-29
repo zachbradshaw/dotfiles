@@ -41,7 +41,7 @@ Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
 " vim-signify: git file status in gutter
 Plug 'mhinz/vim-signify'
 
-" auto close html/jsx tags
-Plug 'alvan/vim-closetag'
+" ack
+Plug 'mileszs/ack.vim' 
 
 call plug#end()

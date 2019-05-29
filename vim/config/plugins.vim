@@ -46,5 +46,6 @@ let g:UltiSnipsJumpBackwardTrigger="<S-TAB>"
 " make fzf respect ag
 if (executable('ag'))
   let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
+  let g:ackprg = 'ag --vimgrep'
 endif
 
