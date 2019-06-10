@@ -32,9 +32,6 @@ Plug 'w0rp/ale'
 " snippet manager
 Plug 'SirVer/ultisnips'
 
-" comments so powerful, no comment necessary
-Plug 'scrooloose/nerdcommenter'
-
 " coc: vscode style autocomplete
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
 
@@ -43,5 +40,8 @@ Plug 'mhinz/vim-signify'
 
 " ack
 Plug 'mileszs/ack.vim' 
+
+" comment stuff out
+Plug 'tpope/vim-commentary'
 
 call plug#end()
