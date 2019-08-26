@@ -13,9 +13,6 @@ Plug 'sheerun/vim-polyglot'
 " lightline
 Plug 'itchyny/lightline.vim'
 
-" fugitive.vim - git inside vim
-Plug 'tpope/vim-fugitive'
-
 " vinegar.vim - enhanced file browsing
 Plug 'tpope/vim-vinegar'
 
