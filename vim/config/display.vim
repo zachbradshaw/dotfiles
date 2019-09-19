@@ -11,12 +11,6 @@ set number
 set noerrorbells
 set visualbell
 
-" show ruler
-set ruler
-
-" make backspace work
-set backspace=2
-
 " indentation preferences
 set expandtab
 set tabstop=2
