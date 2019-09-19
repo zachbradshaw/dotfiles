@@ -1,14 +1,21 @@
 - defaults:
     link:
       relink: true
- 
-- clean: ['~']
+
+- clean: ["~"]
 
 - link:
     ~/.zshrc: zsh/zshrc
     ~/.vim: vim
     ~/.config/nvim: nvim
+    ~/.config/karabiner: karabiner
 
 - shell:
-    - [defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dev/dotfiles/iterm", Point iTerm2 to custom preferences]
-    - [defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true, Tell iTerm2 to use custom preferences]
+    - [
+        defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dev/dotfiles/iterm",
+        Point iTerm2 to custom preferences,
+      ]
+    - [
+        defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true,
+        Tell iTerm2 to use custom preferences,
+      ]
