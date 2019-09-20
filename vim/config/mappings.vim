@@ -18,3 +18,6 @@ nnoremap <C-P> :Files<CR>
 nnoremap \  :Ack!<space>
 "search for word under cursor by pressing |
 nnoremap \| :Ack! "\b<C-R><C-W>\b"<cr>:cw<cr>
+
+"find all occurences of word under cursor
+nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
