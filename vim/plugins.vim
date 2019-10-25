@@ -41,4 +41,7 @@ Plug 'mileszs/ack.vim'
 " comment stuff out
 Plug 'tpope/vim-commentary'
 
+" auto close html/jsx tags
+Plug 'alvan/vim-closetag'
+
 call plug#end()
