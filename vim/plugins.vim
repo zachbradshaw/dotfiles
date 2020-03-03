@@ -17,7 +17,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-vinegar'
 
 " fzf.vim - fuzzy file search
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
+Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 
 " auto pairs - auto pairs for brackets, parens, braces etc
@@ -30,7 +30,7 @@ Plug 'w0rp/ale'
 Plug 'SirVer/ultisnips'
 
 " coc: vscode style autocomplete
-Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " vim-signify: git file status in gutter
 Plug 'mhinz/vim-signify'

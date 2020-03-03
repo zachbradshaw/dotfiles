@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/usr/local/bin:$HOME/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -35,13 +35,12 @@ alias commit="git commit"
 alias pull="git pull"
 alias push="git push"
 alias diff="git diff --"
+alias switch="git switch"
 
 # misc
 alias weather="curl wttr.in"
 alias restart="exec zsh"
-alias dd="deploy-dude"
-alias vim="nvim"
-alias vimdiff="nvim -d"
+alias under="cd ~/dev/underwriter"
 
 # Launch VSC from iterm
 function code {
@@ -56,3 +55,9 @@ function code {
 }
 
 export FZF_DEFAULT_COMMAND='rg --files --follow'
+
+eval "$(direnv hook zsh)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
