@@ -24,7 +24,7 @@ let g:lightline={
 \}
 
 function! LightlineFilename()
-    let cmd = winwidth(0) > 70 ? '%:p' : '%:t'
+    let cmd = '%:t'
     let filename = expand(cmd) !=# '' ? expand(cmd) : '[No Name]'
     return filename
 endfunction
