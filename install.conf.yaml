@@ -7,7 +7,6 @@
 - link:
     ~/.zshrc: zsh/zshrc
     ~/.vim: vim
-    ~/.config/nvim: nvim
     ~/.config/karabiner: karabiner
 
 - shell:
